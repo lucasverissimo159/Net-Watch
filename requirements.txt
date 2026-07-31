@@ -1,0 +1,14 @@
+# Interface grafica
+customtkinter
+Pillow
+
+# SSH e criptografia
+paramiko
+cryptography
+
+# Audio e TTS
+pygame-ce
+edge-tts
+
+# Build do executavel
+pyinstaller

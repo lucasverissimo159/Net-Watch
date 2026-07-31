@@ -1,0 +1,44 @@
+# ============================================================
+#  Dados de runtime / credenciais reais (NAO versionar)
+#  O banco netwatch.db armazena hosts, IPs e credenciais SSH reais.
+#  Use data/netwatch.example.db como base (copie para netwatch.db).
+# ============================================================
+data/netwatch.db
+data/netwatch.db-wal
+data/netwatch.db-shm
+data/config.json
+data/viewer_snapshot.json
+audio/
+
+# ============================================================
+#  Logs e preferencias por usuario
+# ============================================================
+logs/
+*.log
+user_prefs.json
+
+# ============================================================
+#  Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# ============================================================
+#  PyInstaller
+# ============================================================
+build/
+dist/
+*.manifest
+
+# ============================================================
+#  IDE / SO
+# ============================================================
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
